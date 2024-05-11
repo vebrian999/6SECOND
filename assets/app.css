@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Poppins;
+  overflow-x: hidden;
+}
+
+@screen sm {
+  html {
+    overflow-x: hidden;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-order {
+  background-color: #94a3b8;
+}
+
+.bg-card-ec {
+  background-color: #fff;
+  transition: background-color 0.3s ease; /* Efek transisi */
+}
+
+.bg-card-ec:hover {
+  background-color: #f4f7fa; /* Ubah warna latar belakang saat dihover */
+}
+
+.bg-coments {
+  background-color: #94a3b8;
+}
+
+.bg-desc {
+  background-color: #f4f7fa;
+}
+
+.bg-modal {
+  background-color: #94a3b8;
+}
+
+/* .bg-gradient {
+  background-image: linear-gradient(to right, #2563eb, #172752, #1a4fb7);
+
+} */
