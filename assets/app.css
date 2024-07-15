@@ -60,3 +60,19 @@ body {
 .bg-komen-uhuy {
   background-color: #f4f7fa;
 }
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.floating {
+  animation: float 3s ease-in-out infinite;
+}
