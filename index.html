@@ -2,6 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="description" content="6second adalah platform jual beli barang bekas yang menyediakan berbagai produk berkualitas dengan harga terjangkau. Temukan dan jual barang bekas Anda dengan mudah dan cepat di 6second." />
+    <meta name="keywords" content="6second, barang bekas, Solusi Kilat untuk Jual Beli Barang Bekas, Beli dan Jual Barang, menjual barang di 6second?" />
+    <meta name="author" content="febfeb" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-LWWZZL7JTD"></script>
@@ -14,15 +17,16 @@
 
       gtag("config", "G-LWWZZL7JTD");
     </script>
-    <title>6SECOND</title>
+    <title>6SECOND | Marketplace Jual Beli Barang Bekas Berkualitas</title>
     <link rel="stylesheet" href="assets/app.css" />
     <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
     <script src="https://use.fontawesome.com/your-embed-code.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
-  <body>
+  <body class="overflow-x-hidden">
     <!-- awal header -->
     <header>
       <nav class="bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200">
@@ -67,6 +71,12 @@
                 <a href="#services" class="block py-2 px-3 text-black hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Services</a>
               </li>
               <li>
+                <a href="#testimoni" class="block py-2 px-3 text-black hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Testimoni</a>
+              </li>
+              <li>
+                <a href="#faq" class="block py-2 px-3 text-black hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">FAQ</a>
+              </li>
+              <li>
                 <a href="#contact" class="block py-2 px-3 text-black hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Contact</a>
               </li>
             </ul>
@@ -75,7 +85,7 @@
       </nav>
       <!-- awal jumbotron -->
       <section class="bg-center bg-no-repeat bg-full bg-cover bg-fixed bg-[url('assets/img/background-jumbotron.jpg')] bg-gray-700 bg-blend-multiply md:flex">
-        <div class="px-4 mx-auto max-w-screen-xl text-center py-48 md:py-24 lg:py-56 w-full md:w-1/2">
+        <div class="px-4 mx-auto max-w-screen-xl text-center py-48 md:py-24 lg:py-56 w-full md:w-1/2" data-aos="fade-right" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="800">
           <div class="">
             <h1 class="mb-4 text-5xl font-extrabold tracking-tight leading-none text-white md:text-3xl lg:text-5xl">
               Beli dan Jual Barang <br />
@@ -102,7 +112,7 @@
             </a>
           </div>
         </div>
-        <div class="w-1/2 flex justify-center items-center">
+        <div class="w-1/2 flex justify-center items-center" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="800">
           <iframe
             class="hidden md:block floating"
             width="560"
@@ -123,7 +133,7 @@
     <main>
       <div class="content">
         <!-- awal deskripsi -->
-        <article id="about" class="my-10">
+        <article id="about" class="my-10" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-offset="300" data-aos-duration="800">
           <div class="text-center my-5">
             <h1 class="font-light text-3xl">Deskripsi</h1>
             <hr class="my-2 border-b-2 border-gray-500 w-16 mx-auto" />
@@ -689,7 +699,7 @@
             <hr class="my-2 border-b-2 border-gray-500 w-16 mx-auto" />
           </div>
           <div class="flex flex-col md:flex-row md:justify-center gap-6">
-            <div class="max-w-sm p-6 flex flex-col justify-center items-center bg-white border border-gray-200 rounded-lg shadow">
+            <div class="max-w-sm p-6 flex flex-col justify-center items-center bg-white border border-gray-200 rounded-lg shadow" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
               <a href="#">
                 <h5 class="text-2xl font-medium tracking-tight text-gray-900">Transaksi Aman</h5>
               </a>
@@ -719,7 +729,7 @@
                 </svg>
               </a>
             </div>
-            <div class="max-w-sm p-6 flex flex-col justify-center items-center bg-white border border-gray-200 rounded-lg shadow">
+            <div class="max-w-sm p-6 flex flex-col justify-center items-center bg-white border border-gray-200 rounded-lg shadow" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine">
               <a href="#">
                 <h5 class="text-2xl font-medium tracking-tight text-gray-900">UI yang Ramah</h5>
               </a>
@@ -739,7 +749,7 @@
         <!-- akhir services -->
 
         <!-- awal komen -->
-        <article class="my-20">
+        <article id="testimoni" class="my-20">
           <div class="text-center my-5">
             <h1 class="font-light text-3xl">Apa yang semua orang katakan</h1>
             <hr class="my-2 border-b-2 border-gray-500 w-16 mx-auto" />
@@ -945,7 +955,7 @@
           </div>
           <section class="">
             <div class="md:flex justify-between gap-x-16 mx-3 md:mx-32">
-              <div class="flex justify-center items-center">
+              <div class="flex justify-center items-center" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">
                 <iframe
                   width="560"
                   height="400"
@@ -956,7 +966,7 @@
                   referrerpolicy="strict-origin-when-cross-origin"
                   allowfullscreen></iframe>
               </div>
-              <div>
+              <div data-aos="fade-left" data-aos-offset="100" data-aos-easing="ease-in-sine">
                 <div class="container mx-auto p-8">
                   <ul class="list-none p-0">
                     <li class="relative pl-14 mb-4">
@@ -988,7 +998,7 @@
         <!-- akhir mengapa -->
 
         <!-- Awal FAQ -->
-        <article id="kategory" class="my-20 pt-10 bg-our-team">
+        <article id="faq" class="my-20 pt-10 bg-our-team">
           <div class="text-center my-5">
             <h1 class="font-light text-3xl">Pertanyaan yang sering diajukan</h1>
             <hr class="my-2 border-b-2 border-gray-500 w-16 mx-auto" />
@@ -1080,7 +1090,7 @@
         <!-- Akhir FAQ -->
 
         <!-- awal cta2 -->
-        <article class="my-10 bg-center bg-no-repeat bg-full bg-fixed bg-[url('assets/img/banner+img.png')] mx-auto md:mx-36">
+        <article class="my-10 bg-center bg-no-repeat bg-full bg-fixed bg-[url('assets/img/banner+img.png')] mx-auto md:mx-36" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine">
           <section class="bg-gradient md:mx-40">
             <div class="py-8 px-4 sm:py-16 lg:px-6">
               <div class="text-center">
@@ -1260,5 +1270,10 @@
       </div>
     </div>
     <!-- akhir modal (popup) -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
